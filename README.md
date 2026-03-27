@@ -59,7 +59,7 @@ Eightly, I continued on to a new HTTP request and saw it was for “hxxp[://]ctl
 Ninthly, in relation to the last HTTP request the client made a request for an online certificate status protocol “hxxp[://]ocsp[.]digicert[.]com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBSAUQYBMq2awn1Rh6Doh%2FsBYgFV7gQUA95QNVbRTLtm8KPiGxvDl7I90VUCEAJ0LqoXyo4hxxe7H%2Fz9DKA%3D”. Viewing information online about this digital certificate you can see it has been flagged for being malicious with the possibility of it being a ransomware attack which would give evidence for the prior indicators. The client made this request for a new IP address “93[.]184[.]220[.]29”, the information about this one IP address is not malicious but the site can be wrongfully used to host malware.
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/fc388ebdd9345d0bfb55ca946e90cd93c06ff71f/Screenshot%20from%202026-03-03%2017-34-25.png)
 Tenthly, another GET request was made this time it was towards the website “ hxxp[://]microsoft[.]com/pkiops/certs/MicSecSercA2011_2011-10-18[.]crt”. I looked at information about this website on Any Run and learned it was malicious with behaviors including messing with certificates settings on a system. If you look at the packet bytes you can see there's also another HTTP website with the words “Root Certificate” it’s an likely indicator of changes to the certificates settings. 
 
 
