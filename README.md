@@ -75,7 +75,7 @@ Eleventhly, moving on a GET request was made to the attacker’s domain adding o
 Twlevely, by using the “hxxp[://]connect[.]facebook[.]net/en_US/all[.]js” the attacker was able to get the rights to a FaceBook software license giving fact the attacker is initiating an impersonation attack with a fake FaceBook website. 
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/744598ea7d9c63f502cf353ac621456ba8d6a7a7/Screenshot%20from%202026-03-04%2017-46-04.png)
 Thirteenthly, from this point the attacker is trying to pull the actual malware file from his domain, “http%3A%2F%2F103.232.55.148%2Fservice%2F[.]au&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IESS02&market=en-US HTTP/1.1\r\n”. To hide the true location of the malware file on his domain the attacker is using percent encoding “%3A,%2F, %2F” and url spoofing. Using a few GET request to the url the attacker is pulling parts of the malware each time he requests, you can see below query in the XML section an “.” for the first GET request response and “.audiodg.exe” for the last GET request response.
 
  
