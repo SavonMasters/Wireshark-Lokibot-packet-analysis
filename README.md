@@ -44,6 +44,7 @@ Sixly, two items were requested from the domain “/icons/blank.gifs” and “/
 
 
 ![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/fc82273ecce9fa1d875562ef2f7ecfeb4a5aa365/Screenshot%20from%202026-03-02%2018-18-00.png)
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/2b631fa25d714902c9cec6c84b6ef14e767cbed8/Wireshark%20Lokibot%203.png)
 SeventhIy, I went through to the next HTTP request and saw that it was for a “favicon[.]ico” from the attacker’s domain. I looked up what a “favicon[.]ico” is and gathered that it can be used to impersonate a known recognizable website image which would allow an attacker to download malware behind an image. 
 
 
