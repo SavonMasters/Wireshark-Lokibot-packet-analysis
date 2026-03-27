@@ -16,7 +16,7 @@ LokiBot uses a credential and information stealing malware, often sent as a mali
                                                         Investigation 
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/68f29c4d1dc95425ac88dae9154b27ffe900ee5d/Screenshot%20from%202026-03-02%2015-34-30.png)
 First, I like to see what all the packet contains by looking at the capture file properties. This one started at “2021-09-14”at “10:32:16”, elapsed for “09:44” minutes and consisted of 3679 packets. 
 
 
