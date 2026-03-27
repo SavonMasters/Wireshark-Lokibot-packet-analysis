@@ -81,7 +81,7 @@ Twlevely, by using the “hxxp[://]connect[.]facebook[.]net/en_US/all[.]js” th
 Thirteenthly, from this point the attacker is trying to pull the actual malware file from his domain, “http%3A%2F%2F103.232.55.148%2Fservice%2F[.]au&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IESS02&market=en-US HTTP/1.1\r\n”. To hide the true location of the malware file on his domain the attacker is using percent encoding “%3A,%2F, %2F” and url spoofing. Using a few GET request to the url the attacker is pulling parts of the malware each time he requests, you can see below query in the XML section an “.” for the first GET request response and “.audiodg.exe” for the last GET request response.
 
  
-
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/19f908c67cc197982267920ccd806eda1be26fbd/Screenshot%20from%202026-03-04%2018-23-13.png)
 Fourteenlthy, keeping going the attacker has fully downloaded the malware onto the system. The malware is called “.audiodg.exe” and has been categorized as Trojan, Rat and Stealer. The malware will be unseeable until it uses the command line to leave an executable on the device that interacts with it, which at that point it will start to steal the devices data, information and credentials. 
 
 
