@@ -65,7 +65,7 @@ Ninthly, in relation to the last HTTP request the client made a request for an o
 Tenthly, another GET request was made this time it was towards the website “ hxxp[://]microsoft[.]com/pkiops/certs/MicSecSercA2011_2011-10-18[.]crt”. I looked at information about this website on Any Run and learned it was malicious with behaviors including messing with certificates settings on a system. If you look at the packet bytes you can see there's also another HTTP website with the words “Root Certificate” it’s an likely indicator of changes to the certificates settings. 
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/cae0730bd94c50418369241820719cdc912f9309/Screenshot%20from%202026-03-03%2017-57-33.png)
 Eleventhly, moving on a GET request was made to the attacker’s domain adding on “dasboard/stylesheets/normalize.css”. “Dashboard/stylesheets/normalize.css” is used to alter the appearance of a website. The next few GET requests all ask for this domain’s available appearance features to change different parts of the website. I have a strong suspicion that the attacker is starting to build a popular well known looking website for an impersonation attack to make unnoticeable malware linked. 
 
 
