@@ -61,6 +61,7 @@ Ninthly, in relation to the last HTTP request the client made a request for an o
 
 ![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/fc388ebdd9345d0bfb55ca946e90cd93c06ff71f/Screenshot%20from%202026-03-03%2017-34-25.png)
 ![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/574c8bbca194ad78a38ec8ba8a962bf3b8be42ea/Wireshark%20Lokibot%207.png)
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/25623af1786edd06758ab1de9804270392228c68/Screenshot%20from%202026-03-03%2017-36-51.png)
 Tenthly, another GET request was made this time it was towards the website “ hxxp[://]microsoft[.]com/pkiops/certs/MicSecSercA2011_2011-10-18[.]crt”. I looked at information about this website on Any Run and learned it was malicious with behaviors including messing with certificates settings on a system. If you look at the packet bytes you can see there's also another HTTP website with the words “Root Certificate” it’s an likely indicator of changes to the certificates settings. 
 
 
