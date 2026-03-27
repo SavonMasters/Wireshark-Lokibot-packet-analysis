@@ -54,6 +54,7 @@ Eightly, I continued on to a new HTTP request and saw it was for “hxxp[://]ctl
 
 
 ![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/6498a1c6a6533cec3a20402afadf12af1523aef9/Wireshark%20Lokibot%205.png)
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/b3929b0487eb2ff7481c215f609a91ec3d4e1307/Screenshot%20from%202026-03-02%2019-11-47.png)
 Ninthly, in relation to the last HTTP request the client made a request for an online certificate status protocol “hxxp[://]ocsp[.]digicert[.]com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBSAUQYBMq2awn1Rh6Doh%2FsBYgFV7gQUA95QNVbRTLtm8KPiGxvDl7I90VUCEAJ0LqoXyo4hxxe7H%2Fz9DKA%3D”. Viewing information online about this digital certificate you can see it has been flagged for being malicious with the possibility of it being a ransomware attack which would give evidence for the prior indicators. The client made this request for a new IP address “93[.]184[.]220[.]29”, the information about this one IP address is not malicious but the site can be wrongfully used to host malware.
 
 
