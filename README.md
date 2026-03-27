@@ -34,6 +34,7 @@ Fourthly, I chose to look at the HTTP traffic first since it had the most traffi
 
 
 ![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/d18b3678f6da5c55ab42e2d55886ce5d6c92dc74/Wireshark%20Lokibot%201.png)
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/202b106c21550d97033969dd1b9ea3308bbae3bb/Wireshark%20Lokibot%202.png)
 Fifthly, I researched the IP address that was included in the query and learned that it has been flagged 7/90 times for being malicious. I looked up the server as well and learned that it is using unsecured versions that all have separate vulnerabilities making the server easy to base attacks. 
 
 
