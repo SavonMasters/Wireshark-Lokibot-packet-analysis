@@ -67,6 +67,7 @@ Tenthly, another GET request was made this time it was towards the website “ h
 
 ![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/cae0730bd94c50418369241820719cdc912f9309/Screenshot%20from%202026-03-03%2017-57-33.png)
 ![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/1e66bcf12475a611338eb2fb024103756d93f456/Wireshark%20Lokibot%208.png)
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/441406eb1185fefed02901404837eb304fb80e80/Screenshot%20from%202026-03-03%2018-07-59.png)
 Eleventhly, moving on a GET request was made to the attacker’s domain adding on “dasboard/stylesheets/normalize.css”. “Dashboard/stylesheets/normalize.css” is used to alter the appearance of a website. The next few GET requests all ask for this domain’s available appearance features to change different parts of the website. I have a strong suspicion that the attacker is starting to build a popular well known looking website for an impersonation attack to make unnoticeable malware linked. 
 
 
