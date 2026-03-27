@@ -39,6 +39,7 @@ Fifthly, I researched the IP address that was included in the query and learned 
 
 
 ![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/48042d22ed62b50266bca2329f98c244011f1205/Screenshot%20from%202026-03-02%2017-32-25.png)
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/847bd7e71c058148a3d30519bda67af874544cd1/Screenshot%20from%202026-03-02%2017-33-26.png)
 Sixly, two items were requested from the domain “/icons/blank.gifs” and “/icons/back.gifs”. I believe the attacker is using the gifs to mask malware that can be downloaded. 
 
 
