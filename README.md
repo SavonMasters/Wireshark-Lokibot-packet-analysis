@@ -48,7 +48,7 @@ Sixly, two items were requested from the domain “/icons/blank.gifs” and “/
 SeventhIy, I went through to the next HTTP request and saw that it was for a “favicon[.]ico” from the attacker’s domain. I looked up what a “favicon[.]ico” is and gathered that it can be used to impersonate a known recognizable website image which would allow an attacker to download malware behind an image. 
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/cab6e1244a54ad7eace887d41fde7b24f214c66e/Wireshark%20Lokibot%204.png)
 Eightly, I continued on to a new HTTP request and saw it was for “hxxp[://]ctldl[.]windowsupdate[.]com/msdownload/update/v3/static/trustedr/en/disallowedcertstl[.]cab?3027e92ff72bd024]”, this is a legitimate service that allows the Microsoft system to allow untrusted digital certificates to the system. The vulnerability is an attacker can use this service to allow an untrustworthy digital certificate that they own and avoid detection by Microsoft's defenses. 
 
 
