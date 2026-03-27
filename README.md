@@ -38,7 +38,7 @@ Fourthly, I chose to look at the HTTP traffic first since it had the most traffi
 Fifthly, I researched the IP address that was included in the query and learned that it has been flagged 7/90 times for being malicious. I looked up the server as well and learned that it is using unsecured versions that all have separate vulnerabilities making the server easy to base attacks. 
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/48042d22ed62b50266bca2329f98c244011f1205/Screenshot%20from%202026-03-02%2017-32-25.png)
 Sixly, two items were requested from the domain “/icons/blank.gifs” and “/icons/back.gifs”. I believe the attacker is using the gifs to mask malware that can be downloaded. 
 
 
