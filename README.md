@@ -28,7 +28,7 @@ Second, I clicked on the protocol hierarchy statistics to see the most frequent 
 Thirdly, I see if I can see the source IP address of the client and who he was communicating with the most with the conversations feature. The source IP address of the client might be “10[.]0[.]0[.]168” and interesting IP addresses to look into would be “103[.]232[.]55[.]148 and 204[.]79[.]197[.]200” due to their high packets. 
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/66bc232ce97c499c95b070111086cee12cacaf04/Screenshot%20from%202026-03-02%2016-24-12.png)
 Fourthly, I chose to look at the HTTP traffic first since it had the most traffic and its unsecure for possible attacks to take place. The client made a GET request to the website “hxxp[://]103[.]232[.]55[.]148/service” and got the response of line-text based data sending “/icons/blank/gif” and “/icons/back/gif” from the server “Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.3.28\r\n”.
 
 
