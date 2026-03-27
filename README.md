@@ -33,7 +33,7 @@ Thirdly, I see if I can see the source IP address of the client and who he was c
 Fourthly, I chose to look at the HTTP traffic first since it had the most traffic and its unsecure for possible attacks to take place. The client made a GET request to the website “hxxp[://]103[.]232[.]55[.]148/service” and got the response of line-text based data sending “/icons/blank/gif” and “/icons/back/gif” from the server “Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.3.28\r\n”.
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/d18b3678f6da5c55ab42e2d55886ce5d6c92dc74/Wireshark%20Lokibot%201.png)
 Fifthly, I researched the IP address that was included in the query and learned that it has been flagged 7/90 times for being malicious. I looked up the server as well and learned that it is using unsecured versions that all have separate vulnerabilities making the server easy to base attacks. 
 
 
