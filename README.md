@@ -86,7 +86,7 @@ Thirteenthly, from this point the attacker is trying to pull the actual malware 
 Fourteenlthy, keeping going the attacker has fully downloaded the malware onto the system. The malware is called “.audiodg.exe” and has been categorized as Trojan, Rat and Stealer. The malware will be unseeable until it uses the command line to leave an executable on the device that interacts with it, which at that point it will start to steal the devices data, information and credentials. 
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/48a03c1c5899ca417f033e478d9f97783fecfa97/Screenshot%20from%202026-03-04%2018-43-37.png)
 Fifthteenly, the attacker then makes a POST request for “hxxp[://]136[.]243[.]159[.]53/~element/page[.]php?id=484” for the last part of his attack. The POST request is making it look as an error message after a person clicked on the link on the malicious page. The message features data like “404 Not Found”, “The requested URL was not found on this server”, and “error was encountered while trying to use an ErrorDocument to handle the request”. Tying together the built fake Facebook page and the last message to mimic a real error message the attacker can now download the malware without any trouble. 
 
 
