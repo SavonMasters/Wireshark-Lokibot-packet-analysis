@@ -71,7 +71,7 @@ Tenthly, another GET request was made this time it was towards the website “ h
 Eleventhly, moving on a GET request was made to the attacker’s domain adding on “dasboard/stylesheets/normalize.css”. “Dashboard/stylesheets/normalize.css” is used to alter the appearance of a website. The next few GET requests all ask for this domain’s available appearance features to change different parts of the website. I have a strong suspicion that the attacker is starting to build a popular well known looking website for an impersonation attack to make unnoticeable malware linked. 
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/d69a60490bdd792be8ca17c2fab4eac3d0bc6c53/Screenshot%20from%202026-03-03%2018-40-09.png)
 Twlevely, by using the “hxxp[://]connect[.]facebook[.]net/en_US/all[.]js” the attacker was able to get the rights to a FaceBook software license giving fact the attacker is initiating an impersonation attack with a fake FaceBook website. 
 
 
