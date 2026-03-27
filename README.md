@@ -82,6 +82,7 @@ Thirteenthly, from this point the attacker is trying to pull the actual malware 
 
  
 ![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/19f908c67cc197982267920ccd806eda1be26fbd/Screenshot%20from%202026-03-04%2018-23-13.png)
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/3f611f9d19d095ab4f4f1ebe0325ef46b538cc01/Wireshark%20Lokibot%2010.png)
 Fourteenlthy, keeping going the attacker has fully downloaded the malware onto the system. The malware is called “.audiodg.exe” and has been categorized as Trojan, Rat and Stealer. The malware will be unseeable until it uses the command line to leave an executable on the device that interacts with it, which at that point it will start to steal the devices data, information and credentials. 
 
 
