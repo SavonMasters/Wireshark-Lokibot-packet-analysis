@@ -20,7 +20,7 @@ LokiBot uses a credential and information stealing malware, often sent as a mali
 First, I like to see what all the packet contains by looking at the capture file properties. This one started at “2021-09-14”at “10:32:16”, elapsed for “09:44” minutes and consisted of 3679 packets. 
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/ce679bd8686bd2f7ac30946510989f8758c17e30/Screenshot%20from%202026-03-02%2015-46-21.png)
 Second, I clicked on the protocol hierarchy statistics to see the most frequent protocol. You can see there is not a lot of UDP traffic but a big amount of TCP with HTTP and ARP traffic being high. 
 
 
