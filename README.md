@@ -24,7 +24,7 @@ First, I like to see what all the packet contains by looking at the capture file
 Second, I clicked on the protocol hierarchy statistics to see the most frequent protocol. You can see there is not a lot of UDP traffic but a big amount of TCP with HTTP and ARP traffic being high. 
 
 
-
+![image alt](https://github.com/SavonMasters/Wireshark-Lokibot-packet-analysis/blob/8983a549f2b749856763c23ddb3758b6fc816569/Screenshot%20from%202026-03-02%2015-56-06.png)
 Thirdly, I see if I can see the source IP address of the client and who he was communicating with the most with the conversations feature. The source IP address of the client might be “10[.]0[.]0[.]168” and interesting IP addresses to look into would be “103[.]232[.]55[.]148 and 204[.]79[.]197[.]200” due to their high packets. 
 
 
