@@ -97,33 +97,51 @@ After conducting the investigation of the LokiBot malware I learned it operated 
 
                                                           IOCs
 
-An extra amount of HTTP traffic which is a unsecure protocol. 
-The attackers IP address “103[.]232[.]55[.]148”.
-The attacker's domain “hxxp[://]103[.]232[.]55[.]148/service”.
-Malicious items from the domain to create an impersonation attack such as “/icons/blank.gifs”, “/icons/back.gifs”. “Favicon[.]ico”, “dasboard/stylesheets/normalize.css”, and “hxxp[://]connect[.]facebook[.]net/en_US/all[.]js” 
-Accessing “hxxp[://]ctldl[.]windowsupdate[.]com/msdownload/update/v3/static/trustedr/en/disallowedcertstl[.]cab?3027e92ff72bd024]” to change certificate status with “hxxp[://]ocsp[.]digicert[.]com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBSAUQYBMq2awn1Rh6Doh%2FsBYgFV7gQUA95QNVbRTLtm8KPiGxvDl7I90VUCEAJ0LqoXyo4hxxe7H%2Fz9DKA%3D”, and “hxxp[://]microsoft[.]com/pkiops/certs/MicSecSercA2011_2011-10-18[.]crt”
-The obfuscated location of the malware on the attacker’s domian “http%3A%2F%2F103.232.55.148%2Fservice%2F[.]au&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IESS02&market=en-US HTTP/1.1\r\n”.\”.
-The malware called “.audiodg.exe” and its SHA256 hash 7714997ED1B2E2C56ED953288242AE8BEC057E1561E8191E12E9EBA13DC1D74D
-A put together error message page from “hxxp[://]136[.]243[.]159[.]53/~element/page[.]php?id=484” to behave the same as a FaceBook page.
-The malware displayed the MITRE techniques of “Obfuscated Files or Information [T1027], Application Layer Protocol: Web Protocols [T1071.001], Credentials from Password Stores: Credentials from Web Browsers [T1555.003]”, and User Execution: Malicious File [T1204.002].
+* An extra amount of HTTP traffic which is a unsecure protocol. 
+
+* The attackers IP address “103[.]232[.]55[.]148”.
+
+* The attacker's domain “hxxp[://]103[.]232[.]55[.]148/service”.
+
+* Malicious items from the domain to create an impersonation attack such as “/icons/blank.gifs”, “/icons/back.gifs”. “Favicon[.]ico”, “dasboard/stylesheets/normalize.css”, and “hxxp[://]connect[.]facebook[.]net/en_US/all[.]js” 
+
+* Accessing “hxxp[://]ctldl[.]windowsupdate[.]com/msdownload/update/v3/static/trustedr/en/disallowedcertstl[.]cab?3027e92ff72bd024]” to change certificate status with “hxxp[://]ocsp[.]digicert[.]com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBSAUQYBMq2awn1Rh6Doh%2FsBYgFV7gQUA95QNVbRTLtm8KPiGxvDl7I90VUCEAJ0LqoXyo4hxxe7H%2Fz9DKA%3D”, and “hxxp[://]microsoft[.]com/pkiops/certs/MicSecSercA2011_2011-10-18[.]crt”
+
+* The obfuscated location of the malware on the attacker’s domian “http%3A%2F%2F103.232.55.148%2Fservice%2F[.]au&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IESS02&market=en-US HTTP/1.1\r\n”.\”.
+
+* The malware called “.audiodg.exe” and its SHA256 hash 7714997ED1B2E2C56ED953288242AE8BEC057E1561E8191E12E9EBA13DC1D74D
+
+* A put together error message page from “hxxp[://]136[.]243[.]159[.]53/~element/page[.]php?id=484” to behave the same as a FaceBook page.
+
+* The malware displayed the MITRE techniques of “Obfuscated Files or Information [T1027], Application Layer Protocol: Web Protocols [T1071.001], Credentials from Password Stores: Credentials from Web Browsers [T1555.003]”, and User Execution: Malicious File [T1204.002].
 
 
                                                         Recommendations
 
-Block the attacker’s IP address “103[.]232[.]55[.]148” and domain “hxxp[://]103[.]232[.]55[.]148/service”
-Install a firewall or proxy to block websites that were made by an untrustworthy service. 
-Create alerts for changes to certificates that are allowed or blocked from your server. 
-If not possible to block HTTP traffic, monitor regularly due to the unprotectedness of the protocol. 
-Review links that you click on are the right links to the webpage. 
-Add the malware to the Anti Virus signature software to be on top of the attack.
-Block the link to the malware “http%3A%2F%2F103.232.55.148%2Fservice%2F[.]au&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IESS02&market=en-US HTTP/1.1\r\n”.\” and delete the malware “.audiodg.exe” and run checks on the computer afterwards to reassure no artifacts were left from the attack. 
+* Block the attacker’s IP address “103[.]232[.]55[.]148” and domain “hxxp[://]103[.]232[.]55[.]148/service”
+
+* Install a firewall or proxy to block websites that were made by an untrustworthy service. 
+
+* Create alerts for changes to certificates that are allowed or blocked from your server. 
+
+* If not possible to block HTTP traffic, monitor regularly due to the unprotectedness of the protocol. 
+
+* Review links that you click on are the right links to the webpage. 
+
+* Add the malware to the Anti Virus signature software to be on top of the attack.
+
+* Block the link to the malware “http%3A%2F%2F103.232.55.148%2Fservice%2F[.]au&maxwidth=32765&rowheight=20&sectionHeight=160&FORM=IESS02&market=en-US HTTP/1.1\r\n”.\” and delete the malware “.audiodg.exe” and run checks on the computer afterwards to reassure no artifacts were left from the attack. 
 
 
                                                         Things I learned  
 
-The LokiBot malware actions during an attack. 
-An improved understanding of MITRE attack techniques that are always used. 
-A new strategy to investigate IOCs of packets. 
-A group of helpful links to perform Open source intelligence (OSINT) on threats of malicious files, links, and executables. 
-How WireShark guides an investigation details. 
+* The LokiBot malware actions during an attack. 
+
+* An improved understanding of MITRE attack techniques that are always used. 
+
+* A new strategy to investigate IOCs of packets. 
+
+* A group of helpful links to perform Open source intelligence (OSINT) on threats of malicious files, links, and executables. 
+
+* How WireShark guides an investigation details. 
 
